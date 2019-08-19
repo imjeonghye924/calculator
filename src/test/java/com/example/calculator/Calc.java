@@ -24,9 +24,11 @@ public class Calc {
         return a/b;
     }
 
-    public int minus(int a, int b)
-    {
 
+    public int substract(int a, int b){
+        return a-b;
+    }
+    public int minus(int a, int b){
         return a-b;
     }
 

@@ -53,15 +53,6 @@ public class CalcTest {
         assertEquals(2.5,result,0.0f);
     }
 
-    @Test
-    public void test_0으로나누기(){//100% ㄷㄱ객
-
-        Calc c = new Calc();
-        double reslut = c.divide(10,0);
-        assertEquals(0, reslut, 0.0f);
-
-    }
-
 
     @Test
     public void test_양수뺄셈(){
