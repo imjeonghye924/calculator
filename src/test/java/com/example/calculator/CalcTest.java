@@ -54,12 +54,12 @@ public class CalcTest {
     }
 
     @Test
-    public void test_0으로나누기(){//100% ㄷㄱ객
+    public void test_양수뺄셈(){
+        Calc  c = new Calc();
+        int result = c.minus(5,4);
+        System.out.println("result "+result);
 
-        Calc c = new Calc();
-        double reslut = c.divide(10,0);
-        assertEquals(0, reslut, 0.0f);
-
+        assertNotEquals(0, result);
     }
 
 
