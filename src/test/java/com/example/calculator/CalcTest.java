@@ -66,7 +66,7 @@ public class CalcTest {
     @Test
     public void test_양수뺄셈(){
         Calc  c = new Calc();
-        int result = c.minus(5,4);
+        int result = c.add(10,5);
         System.out.println("result "+result);
 
         assertNotEquals(0, result);
